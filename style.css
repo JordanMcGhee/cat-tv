@@ -29,7 +29,7 @@ h2 {
   background-color: #EEBF25;
   text-align: center;
   text-decoration: none;
-  padding: 2px;
+  padding: 6px;
   border-style: solid;
   border-width: medium;
   border-color: #ffffff;
@@ -41,7 +41,7 @@ h2 {
   background-color: #3B2EF1 ;
   text-align: center;
   text-decoration: none;
-  padding: 2px;
+  padding: 6px;
   border-style: solid;
   border-width: medium;
   border-color: #ffffff;
@@ -52,7 +52,7 @@ h2 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 14%;
+  width: 14.25%;
 }
 #navigation a:link, a:visited {
   display: block;
@@ -60,8 +60,13 @@ h2 {
   background-color: #208a43;
   text-align: center;
   text-decoration: none;
-  padding: 2px;
-  border-style: solid;
-  border-width: thin;
+  padding: 10px;
+  border-left-style: solid;
+  border-left-width:thin;
   border-color: #000000;
+}
+
+#navigation a:hover, a:active {
+  color: #12572c;
+  background-color: #ffffff;
 }
